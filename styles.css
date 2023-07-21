@@ -58,7 +58,7 @@ body {
     gap: 25px;
 }
 
-.left a {
+.sign-up {
     padding: 8px 16px;
     color: white;
     background-color: rgb(120, 120, 255);
@@ -66,8 +66,6 @@ body {
     margin-right: auto;
 }
 
-.left p {
-}
 
 .top .one {
     justify-content: center;
@@ -144,6 +142,7 @@ body {
     flex-direction: column;
     width: 42%;
     gap: 10px;
+    flex: initial;
 }
 
 .three blockquote {
@@ -155,4 +154,24 @@ body {
 .three figcaption {
 font-weight: bold;
 align-self: flex-end;
+}
+
+.part.four {
+    padding: 75px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    display: flex;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(95, 95, 255);
+    padding: 35px 55px;
+    gap: 200px;
+    flex: initial;
+}
+
+.four .sign-up {
+    border: 2px solid white;
 }
