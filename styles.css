@@ -42,7 +42,8 @@ body {
 .header,
 .header ul,
 .part,
-.left {
+.left,
+.top .two {
     display: flex;
 }
 
@@ -68,14 +69,14 @@ body {
 .left p {
 }
 
-.one {
+.top .one {
     justify-content: center;
     align-items: center;
     padding: 65px;
     gap: 25px;
 }
 
-.image {
+.top .image {
     background-color: lightslategray;
     color: white;
     padding: 120px 150px;
@@ -88,3 +89,46 @@ body {
     width: 100%;
     padding: 0 65px 0 65px;
 }
+
+.random {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 25px;
+    margin-top: -10px;
+
+}
+
+.part.two {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px;
+    gap: 25px;
+    flex: auto;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .image {
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    gap: 10px;
+}
+
