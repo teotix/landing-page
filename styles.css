@@ -108,7 +108,7 @@ body {
     flex: auto;
 }
 
-.container {
+.two .container {
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -132,3 +132,27 @@ body {
     gap: 10px;
 }
 
+.part.three {
+    background-color: #E5E7EB;
+    padding: 85px 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.three .container {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    gap: 10px;
+}
+
+.three blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.three figcaption {
+font-weight: bold;
+align-self: flex-end;
+}
