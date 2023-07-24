@@ -19,6 +19,7 @@ body {
 .header h2 {
     font-size: 24px;
     color: #F9FAF8;
+    margin-right: auto;
 }
 
 .top h1 {
@@ -72,6 +73,7 @@ body {
     padding: 65px;
     gap: 25px;
     flex: initial;
+    flex-wrap: wrap;
 }
 
 .top .image {
@@ -82,16 +84,18 @@ body {
     /* color: white; */
     /* padding: 120px 150px; */
     /* flex: 0 0 auto; */
-    max-width: 40%;
+    /* flex: initial; */
+    width: 30vw;
 }
 
 .top img {
     /* height: 100%; */
     /* width: 100%; */
+    /* object-fit: contain; */
 }
 
 .header {
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     width: 100%;
     padding: 0 65px 0 65px;
@@ -120,6 +124,7 @@ body {
     gap: 50px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .container .image {
@@ -185,6 +190,7 @@ align-self: flex-end;
     padding: 35px 85px;
     gap: 200px;
     flex: initial;
+    flex-wrap: wrap;
 }
 
 .four .sign-up {
